@@ -1,0 +1,90 @@
+*{
+    text-decoration: none;
+}
+
+html{
+    background-color: black;
+}
+
+.style{
+    color: orange;
+}
+
+.special{
+    color: blueviolet;
+    font-family: cursive;
+    font-size: 400%;
+}
+
+.secret{
+    color: brown;
+    font-family: cursive;
+    font-size: 400%;
+}
+
+a{
+    font-size: 20px;
+    color: rgb(45, 95, 202);
+}
+
+.exclusive{
+    color: chocolate;
+    font-family: cursive;
+    font-size: 400%;
+}
+
+h1{
+    color: cornflowerblue;
+}
+
+nav a {
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    float: left;
+    color:cadetblue;
+}
+
+.ghj{
+    padding: 10px;
+    float: right;
+    color:rgb(65, 67, 168);
+    font-size: 20px;
+}
+
+.ghj:hover{
+    color: aquamarine;
+}
+
+footer a{
+    font-weight: 600;
+    font-size: 20px;
+    padding: 20px;
+    float:left;
+    color:rgb(27, 90, 109);
+}
+
+h3{
+    color: turquoise;
+}
+
+a:hover{
+    color: rgb(129, 72, 134);
+}
+
+input{
+    color:firebrick;
+    border-color: blue;
+}
+
+input[type="search"]{
+    width: 35%;
+    padding: 6px;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: large;
+}
+
+.adv{
+    float: right;
+}
