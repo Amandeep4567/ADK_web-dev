@@ -1,0 +1,155 @@
+body{
+    height: fit-content;
+    background: url(./web/bg.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+.head{
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    top: -20px;
+    /* padding: 2px; */
+    color: azure;
+    overflow:visible;
+    font-family: 'Macondo', cursive;
+}
+
+.navbar{
+    font-weight: 600; 
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Macondo', cursive;
+}
+nav a{
+    color: bisque;
+    padding: 20px;
+    text-decoration: none;
+}
+.dotgp{
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    /* padding-left: 75pc; */
+    float: right;
+}
+.dot1, .dot2, .dot3 , .dot4{
+    font-size: 8px;
+    position: relative;
+    top: -80px;
+    right: 30px;
+    width: 10px;
+    height: 10px;
+    border:double;
+    border-color:rgba(181, 3, 35, 0.286);
+    border-radius: 50%;
+    /* border-top: dashed; */
+    border-width: 5px 5px 10px;
+    border-bottom: currentColor;
+    box-shadow: 5px 20px 20px rgb(205, 75, 245);
+    /* border-bottom: dashed; */
+    margin: 10px;
+}
+.dot1 {
+  animation: jump 6.6s -0.48s linear infinite;
+  background: #4ae3f4aa;
+}
+.dot2 {
+    animation: jump 6.6s -0.32s linear infinite;
+    background: #9e10b1af;
+}
+.dot3 {
+    animation: jump 6.6s -0.16s linear infinite;
+    background: #4ae3f4a9;
+}
+.dot4{
+    animation: jump 6.6s linear infinite;
+    background: #b05ff79f  ;
+}
+@keyframes jump {
+  0%, 40% ,60%, 100% {
+    transform: scale(0);
+  } 
+  20%,80% {
+    transform: scale(2.0);
+  }
+}
+.name, .name2, .name3,.name4{
+    height: 100px;
+    width: 100px;
+    /* position: relative; */
+    /* top: 200px;
+    left: 200px; */
+    animation-name: rotateOnY;
+}
+.circle{
+    width: 150px;
+    height: 150px;
+    font-size: 120px;
+    border: outset 5px rgba(173, 39, 53, 0.471);
+    border-radius: 50%;
+    border-width: 5px 15px;
+    border-left: 15px;
+    text-align: center;
+    color: #eb25eb7c;
+    background-color: #f632c84d;
+    position: relative;
+    left: 600px;
+    animation: bouncing 0.5s ease 5s infinite alternate both;
+    margin: 20px;
+}
+@keyframes bouncing{
+    0%{
+        bottom: 0;
+        box-shadow: 0 0 5px rgba(166, 13, 232, 0.769);
+    }
+    100%{
+        bottom: 50px;
+        box-shadow: 0 50px 50px rgba(233, 13, 207, 0.512);
+    }
+}
+.name{
+    position: relative;
+    float: right;
+    bottom: 50px;
+    right: 230px;
+}
+.name2{
+    position: relative;
+    left: 200px;
+    bottom: 50px;
+}
+.name3{
+    position: relative;
+    float: right;
+    right: 230px;
+    top: 70px;
+}
+.name4{
+    position: relative;
+    left: 200px;
+    top: 70px;
+}
+.Fant{
+    font-size: 100px;
+    color: rgba(166, 13, 232, 0.769);
+    text-shadow: 5px 5px 10px rgb(162, 7, 205);
+}
+.name2, .name4{
+    animation: rotateOnY 4s infinite linear;
+    animation-duration: infinite;
+}
+.name, .name3{
+    animation: rotateOn 4s infinite linear;
+    animation-duration: infinite;
+}
+@keyframes rotateOnY{
+    to{
+        transform: rotateY(-360deg);
+    }
+}
+@keyframes rotateOn{
+    to{
+        transform: rotateY(360deg);
+    }
+}
