@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Varela Round', sans-serif;
+    color: #caefde;
+}
+
+body{
+    background: linear-gradient(90deg, #673baf 0%, #062895 100%);
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+.main{
+    border: 2px solid rgb(209, 178, 178);
+    position: relative;
+    /* background-color: #47d497; */
+    /* border-radius: 10px; */
+    /* background: cadetblue; */
+    
+}
+.content{
+    position: relative;
+    display: flex;
+    padding: 30px;
+}
+.welcome{
+    /* border: 2px solid brown; */
+    align-items: center;
+    position: relative;
+    padding: 80px 20px;
+    padding-top: 6cm;
+}
+.welcome h4{
+    font-size: small;
+    font-weight: 400;
+    padding: 20px 0;
+}
+.register{
+    /* border: 2px solid burlywood; */
+    padding: 20px 35px;
+    padding-left: 5cm;
+}
+.form{
+    /* position: relative; */
+    padding: 30px 0 0 0;
+}
+.form .fill{
+    width: 8cm;
+    height: 1cm;
+    background-color: transparent;
+    border-top: 2px solid #0a70ab58;
+    border-bottom: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    /* border-radius: 20px; */
+    padding: 2px;
+    font-size: 15px;
+}
+.form .fill:hover{
+    border: transparent;
+}
+.form .gap{
+    padding: 5px;
+}
+button{
+    text-align: center;
+    color: black;
+    height: 1cm;
+    width: 8cm;
+    background-color: transparent;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    color: #0bb8be;
+    font-size: 20px;
+    background-color: #1311bc;
+}
