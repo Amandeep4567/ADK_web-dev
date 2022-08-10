@@ -7,13 +7,13 @@
 }
 
 body{
-    background: linear-gradient(90deg, #673baf 0%, #062895 100%);
+    background: linear-gradient(90deg, #0d0122 0%, #03103d 100%);
     background-attachment: fixed;
     overflow: hidden;
 }
 
 .main{
-    border: 2px solid rgb(209, 178, 178);
+    /* border: 2px solid rgb(209, 178, 178); */
     position: relative;
     /* background-color: #47d497; */
     /* border-radius: 10px; */
@@ -76,4 +76,27 @@ button{
     color: #0bb8be;
     font-size: 20px;
     background-color: #1311bc;
+}
+
+@media(max-width: 955px){
+    *{
+        background-color: #0bb8be;
+    }
+
+    .content{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .welcome{
+        margin-top: -10pc;
+        /* align-items: center; */
+        justify-content: center;
+    }
+
+    .register{
+        /* align-items: center; */
+        justify-content: center;
+        margin: 20px -176px;
+    }
 }
